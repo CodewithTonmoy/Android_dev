@@ -1,6 +1,6 @@
 // Decision making or conditional statements.....
 
-/*void main(){
+void main(){
    String connection = 'waiting';
   if(connection == 'connected'){
     print('connected');
@@ -28,10 +28,10 @@
   
   
 }
-*/
+
 
 // string concatenation & interpolation........
-/*void main(){
+void main(){
   String a = 'I';
   String b = 'am tommy';
   print ("$a$b");
@@ -39,11 +39,11 @@
   print(e);
   List<String> f = ['i','am','tommy'];
   print(f.join(" " ));
-} */
+} 
 
 // final & const keyword..........
 
-/* void main(){
+ void main(){
    final int age = 30;
     
   print(age);
@@ -57,11 +57,11 @@
     final int age = 30;
     static const double pi = 3.1416;
     
-  } */
+  } 
 
 // playing with List.......
 
-/* void main(){
+ void main(){
   List<String> myList = ['a','b','c','d'];
   print(myList);
   print(myList.length);
@@ -75,7 +75,7 @@
   myList.replaceRange(0,3,['ss','dd','ww','qq','tt']);
   print(myList);
   
-} */
+} 
 
 // enum in dart.........
 
